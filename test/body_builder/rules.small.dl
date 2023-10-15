@@ -1,0 +1,16 @@
+.type Total
+.type Height
+.type Weight
+.type Birth_Date
+.type People_ID
+.type Snatch
+.type Clean_Jerk
+.type Name
+.type Body_Builder_ID
+.type Birth_Place
+
+.decl body_builder(v0: Body_Builder_ID, v1: People_ID, v2: Snatch, v3: Clean_Jerk, v4: Total)
+.input body_builder
+
+.decl people(v0: People_ID, v1: Name, v2: Height, v3: Weight, v4: Birth_Date, v5: Birth_Place)
+.input people

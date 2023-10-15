@@ -1,0 +1,20 @@
+.type total
+.type height
+.type weight
+.type birth_date
+.type people_id
+.type snatch
+.type clean_jerk
+.type name
+.type body_builder_id
+.type birth_place
+
+.decl body_builder(v0: body_builder_id, v1: people_id, v2: snatch, v3: clean_jerk, v4: total)
+.input body_builder
+.decl people(v0: people_id, v1: name, v2: height, v3: weight, v4: birth_date, v5: birth_place)
+.input people
+// select * from body_builder
+
+
+.decl op832(v0: body_builder_id, v1: people_id, v2: snatch, v3: clean_jerk, v4: total)
+.output op832

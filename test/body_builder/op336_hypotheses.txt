@@ -1,0 +1,354 @@
+op336(V1) :- people(V0, V1, V2, V3, V4, V5).
+op336(V1) :- people(V0, V1, V2, V3, V4, V5).
+op336(V5) :- body_builder(V0, V1, V2, V3, V4), people(V1, V5, V6, V7, V8, V9).
+op336(V5) :- body_builder(V0, V1, V2, V3, V4), people(V1, V5, V6, V7, V8, V9).
+op336(V6) :- body_builder(V0, V1, V2, V3, V4), people(V5, V6, V7, V8, V9, V10).
+op336(V6) :- body_builder(V0, V1, V2, V3, V4), people(V5, V6, V7, V8, V9, V10).
+op336(V1) :- people(V0, V1, V2, V3, V4, V5), people(V0, V1, V2, V3, V4, V6).
+op336(V1) :- people(V0, V1, V2, V3, V4, V5), people(V0, V1, V2, V3, V4, V6).
+op336(V1) :- people(V0, V1, V2, V3, V4, V5), people(V0, V1, V2, V3, V6, V5).
+op336(V1) :- people(V0, V1, V2, V3, V4, V5), people(V0, V1, V2, V3, V6, V5).
+op336(V1) :- people(V0, V1, V2, V3, V4, V5), people(V0, V1, V2, V3, V6, V7).
+op336(V1) :- people(V0, V1, V2, V3, V4, V5), people(V0, V1, V2, V3, V6, V7).
+op336(V1) :- people(V0, V1, V2, V3, V4, V5), people(V0, V1, V2, V6, V4, V5).
+op336(V1) :- people(V0, V1, V2, V3, V4, V5), people(V0, V1, V2, V6, V4, V5).
+op336(V1) :- people(V0, V1, V2, V3, V4, V5), people(V0, V1, V2, V6, V4, V7).
+op336(V1) :- people(V0, V1, V2, V3, V4, V5), people(V0, V1, V2, V6, V4, V7).
+op336(V1) :- people(V0, V1, V2, V3, V4, V5), people(V0, V1, V2, V6, V7, V5).
+op336(V1) :- people(V0, V1, V2, V3, V4, V5), people(V0, V1, V2, V6, V7, V5).
+op336(V1) :- people(V0, V1, V2, V3, V4, V5), people(V0, V1, V2, V6, V7, V8).
+op336(V1) :- people(V0, V1, V2, V3, V4, V5), people(V0, V1, V2, V6, V7, V8).
+op336(V1) :- people(V0, V1, V2, V3, V4, V5), people(V0, V1, V6, V3, V4, V5).
+op336(V1) :- people(V0, V1, V2, V3, V4, V5), people(V0, V1, V6, V3, V4, V5).
+op336(V1) :- people(V0, V1, V2, V3, V4, V5), people(V0, V1, V6, V3, V4, V7).
+op336(V1) :- people(V0, V1, V2, V3, V4, V5), people(V0, V1, V6, V3, V4, V7).
+op336(V1) :- people(V0, V1, V2, V3, V4, V5), people(V0, V1, V6, V3, V7, V5).
+op336(V1) :- people(V0, V1, V2, V3, V4, V5), people(V0, V1, V6, V3, V7, V5).
+op336(V1) :- people(V0, V1, V2, V3, V4, V5), people(V0, V1, V6, V3, V7, V8).
+op336(V1) :- people(V0, V1, V2, V3, V4, V5), people(V0, V1, V6, V3, V7, V8).
+op336(V1) :- people(V0, V1, V2, V3, V4, V5), people(V0, V1, V6, V7, V4, V5).
+op336(V1) :- people(V0, V1, V2, V3, V4, V5), people(V0, V1, V6, V7, V4, V5).
+op336(V1) :- people(V0, V1, V2, V3, V4, V5), people(V0, V1, V6, V7, V4, V8).
+op336(V1) :- people(V0, V1, V2, V3, V4, V5), people(V0, V1, V6, V7, V4, V8).
+op336(V1) :- people(V0, V1, V2, V3, V4, V5), people(V0, V1, V6, V7, V8, V5).
+op336(V1) :- people(V0, V1, V2, V3, V4, V5), people(V0, V1, V6, V7, V8, V5).
+op336(V1) :- people(V0, V1, V2, V3, V4, V5), people(V0, V1, V6, V7, V8, V9).
+op336(V1) :- people(V0, V1, V2, V3, V4, V5), people(V0, V1, V6, V7, V8, V9).
+op336(V1) :- people(V0, V1, V2, V3, V4, V5), people(V0, V6, V2, V3, V4, V5).
+op336(V1) :- people(V0, V1, V2, V3, V4, V5), people(V0, V6, V2, V3, V4, V5).
+op336(V6) :- people(V0, V1, V2, V3, V4, V5), people(V0, V6, V2, V3, V4, V5).
+op336(V6) :- people(V0, V1, V2, V3, V4, V5), people(V0, V6, V2, V3, V4, V5).
+op336(V1) :- people(V0, V1, V2, V3, V4, V5), people(V0, V6, V2, V3, V4, V7).
+op336(V1) :- people(V0, V1, V2, V3, V4, V5), people(V0, V6, V2, V3, V4, V7).
+op336(V6) :- people(V0, V1, V2, V3, V4, V5), people(V0, V6, V2, V3, V4, V7).
+op336(V6) :- people(V0, V1, V2, V3, V4, V5), people(V0, V6, V2, V3, V4, V7).
+op336(V1) :- people(V0, V1, V2, V3, V4, V5), people(V0, V6, V2, V3, V7, V5).
+op336(V1) :- people(V0, V1, V2, V3, V4, V5), people(V0, V6, V2, V3, V7, V5).
+op336(V6) :- people(V0, V1, V2, V3, V4, V5), people(V0, V6, V2, V3, V7, V5).
+op336(V6) :- people(V0, V1, V2, V3, V4, V5), people(V0, V6, V2, V3, V7, V5).
+op336(V1) :- people(V0, V1, V2, V3, V4, V5), people(V0, V6, V2, V3, V7, V8).
+op336(V1) :- people(V0, V1, V2, V3, V4, V5), people(V0, V6, V2, V3, V7, V8).
+op336(V6) :- people(V0, V1, V2, V3, V4, V5), people(V0, V6, V2, V3, V7, V8).
+op336(V6) :- people(V0, V1, V2, V3, V4, V5), people(V0, V6, V2, V3, V7, V8).
+op336(V1) :- people(V0, V1, V2, V3, V4, V5), people(V0, V6, V2, V7, V4, V5).
+op336(V1) :- people(V0, V1, V2, V3, V4, V5), people(V0, V6, V2, V7, V4, V5).
+op336(V6) :- people(V0, V1, V2, V3, V4, V5), people(V0, V6, V2, V7, V4, V5).
+op336(V6) :- people(V0, V1, V2, V3, V4, V5), people(V0, V6, V2, V7, V4, V5).
+op336(V1) :- people(V0, V1, V2, V3, V4, V5), people(V0, V6, V2, V7, V4, V8).
+op336(V1) :- people(V0, V1, V2, V3, V4, V5), people(V0, V6, V2, V7, V4, V8).
+op336(V6) :- people(V0, V1, V2, V3, V4, V5), people(V0, V6, V2, V7, V4, V8).
+op336(V6) :- people(V0, V1, V2, V3, V4, V5), people(V0, V6, V2, V7, V4, V8).
+op336(V1) :- people(V0, V1, V2, V3, V4, V5), people(V0, V6, V2, V7, V8, V5).
+op336(V1) :- people(V0, V1, V2, V3, V4, V5), people(V0, V6, V2, V7, V8, V5).
+op336(V6) :- people(V0, V1, V2, V3, V4, V5), people(V0, V6, V2, V7, V8, V5).
+op336(V6) :- people(V0, V1, V2, V3, V4, V5), people(V0, V6, V2, V7, V8, V5).
+op336(V1) :- people(V0, V1, V2, V3, V4, V5), people(V0, V6, V2, V7, V8, V9).
+op336(V1) :- people(V0, V1, V2, V3, V4, V5), people(V0, V6, V2, V7, V8, V9).
+op336(V6) :- people(V0, V1, V2, V3, V4, V5), people(V0, V6, V2, V7, V8, V9).
+op336(V6) :- people(V0, V1, V2, V3, V4, V5), people(V0, V6, V2, V7, V8, V9).
+op336(V1) :- people(V0, V1, V2, V3, V4, V5), people(V0, V6, V7, V3, V4, V5).
+op336(V1) :- people(V0, V1, V2, V3, V4, V5), people(V0, V6, V7, V3, V4, V5).
+op336(V6) :- people(V0, V1, V2, V3, V4, V5), people(V0, V6, V7, V3, V4, V5).
+op336(V6) :- people(V0, V1, V2, V3, V4, V5), people(V0, V6, V7, V3, V4, V5).
+op336(V1) :- people(V0, V1, V2, V3, V4, V5), people(V0, V6, V7, V3, V4, V8).
+op336(V1) :- people(V0, V1, V2, V3, V4, V5), people(V0, V6, V7, V3, V4, V8).
+op336(V6) :- people(V0, V1, V2, V3, V4, V5), people(V0, V6, V7, V3, V4, V8).
+op336(V6) :- people(V0, V1, V2, V3, V4, V5), people(V0, V6, V7, V3, V4, V8).
+op336(V1) :- people(V0, V1, V2, V3, V4, V5), people(V0, V6, V7, V3, V8, V5).
+op336(V1) :- people(V0, V1, V2, V3, V4, V5), people(V0, V6, V7, V3, V8, V5).
+op336(V6) :- people(V0, V1, V2, V3, V4, V5), people(V0, V6, V7, V3, V8, V5).
+op336(V6) :- people(V0, V1, V2, V3, V4, V5), people(V0, V6, V7, V3, V8, V5).
+op336(V1) :- people(V0, V1, V2, V3, V4, V5), people(V0, V6, V7, V3, V8, V9).
+op336(V1) :- people(V0, V1, V2, V3, V4, V5), people(V0, V6, V7, V3, V8, V9).
+op336(V6) :- people(V0, V1, V2, V3, V4, V5), people(V0, V6, V7, V3, V8, V9).
+op336(V6) :- people(V0, V1, V2, V3, V4, V5), people(V0, V6, V7, V3, V8, V9).
+op336(V1) :- people(V0, V1, V2, V3, V4, V5), people(V0, V6, V7, V8, V4, V5).
+op336(V1) :- people(V0, V1, V2, V3, V4, V5), people(V0, V6, V7, V8, V4, V5).
+op336(V6) :- people(V0, V1, V2, V3, V4, V5), people(V0, V6, V7, V8, V4, V5).
+op336(V6) :- people(V0, V1, V2, V3, V4, V5), people(V0, V6, V7, V8, V4, V5).
+op336(V1) :- people(V0, V1, V2, V3, V4, V5), people(V0, V6, V7, V8, V4, V9).
+op336(V1) :- people(V0, V1, V2, V3, V4, V5), people(V0, V6, V7, V8, V4, V9).
+op336(V6) :- people(V0, V1, V2, V3, V4, V5), people(V0, V6, V7, V8, V4, V9).
+op336(V6) :- people(V0, V1, V2, V3, V4, V5), people(V0, V6, V7, V8, V4, V9).
+op336(V1) :- people(V0, V1, V2, V3, V4, V5), people(V0, V6, V7, V8, V9, V5).
+op336(V1) :- people(V0, V1, V2, V3, V4, V5), people(V0, V6, V7, V8, V9, V5).
+op336(V6) :- people(V0, V1, V2, V3, V4, V5), people(V0, V6, V7, V8, V9, V5).
+op336(V6) :- people(V0, V1, V2, V3, V4, V5), people(V0, V6, V7, V8, V9, V5).
+op336(V1) :- people(V0, V1, V2, V3, V4, V5), people(V0, V6, V7, V8, V9, V10).
+op336(V1) :- people(V0, V1, V2, V3, V4, V5), people(V0, V6, V7, V8, V9, V10).
+op336(V6) :- people(V0, V1, V2, V3, V4, V5), people(V0, V6, V7, V8, V9, V10).
+op336(V6) :- people(V0, V1, V2, V3, V4, V5), people(V0, V6, V7, V8, V9, V10).
+op336(V1) :- people(V0, V1, V2, V3, V4, V5), people(V6, V1, V2, V3, V4, V5).
+op336(V1) :- people(V0, V1, V2, V3, V4, V5), people(V6, V1, V2, V3, V4, V5).
+op336(V1) :- people(V0, V1, V2, V3, V4, V5), people(V6, V1, V2, V3, V4, V7).
+op336(V1) :- people(V0, V1, V2, V3, V4, V5), people(V6, V1, V2, V3, V4, V7).
+op336(V1) :- people(V0, V1, V2, V3, V4, V5), people(V6, V1, V2, V3, V7, V5).
+op336(V1) :- people(V0, V1, V2, V3, V4, V5), people(V6, V1, V2, V3, V7, V5).
+op336(V1) :- people(V0, V1, V2, V3, V4, V5), people(V6, V1, V2, V3, V7, V8).
+op336(V1) :- people(V0, V1, V2, V3, V4, V5), people(V6, V1, V2, V3, V7, V8).
+op336(V1) :- people(V0, V1, V2, V3, V4, V5), people(V6, V1, V2, V7, V4, V5).
+op336(V1) :- people(V0, V1, V2, V3, V4, V5), people(V6, V1, V2, V7, V4, V5).
+op336(V1) :- people(V0, V1, V2, V3, V4, V5), people(V6, V1, V2, V7, V4, V8).
+op336(V1) :- people(V0, V1, V2, V3, V4, V5), people(V6, V1, V2, V7, V4, V8).
+op336(V1) :- people(V0, V1, V2, V3, V4, V5), people(V6, V1, V2, V7, V8, V5).
+op336(V1) :- people(V0, V1, V2, V3, V4, V5), people(V6, V1, V2, V7, V8, V5).
+op336(V1) :- people(V0, V1, V2, V3, V4, V5), people(V6, V1, V2, V7, V8, V9).
+op336(V1) :- people(V0, V1, V2, V3, V4, V5), people(V6, V1, V2, V7, V8, V9).
+op336(V1) :- people(V0, V1, V2, V3, V4, V5), people(V6, V1, V7, V3, V4, V5).
+op336(V1) :- people(V0, V1, V2, V3, V4, V5), people(V6, V1, V7, V3, V4, V5).
+op336(V1) :- people(V0, V1, V2, V3, V4, V5), people(V6, V1, V7, V3, V4, V8).
+op336(V1) :- people(V0, V1, V2, V3, V4, V5), people(V6, V1, V7, V3, V4, V8).
+op336(V1) :- people(V0, V1, V2, V3, V4, V5), people(V6, V1, V7, V3, V8, V5).
+op336(V1) :- people(V0, V1, V2, V3, V4, V5), people(V6, V1, V7, V3, V8, V5).
+op336(V1) :- people(V0, V1, V2, V3, V4, V5), people(V6, V1, V7, V3, V8, V9).
+op336(V1) :- people(V0, V1, V2, V3, V4, V5), people(V6, V1, V7, V3, V8, V9).
+op336(V1) :- people(V0, V1, V2, V3, V4, V5), people(V6, V1, V7, V8, V4, V5).
+op336(V1) :- people(V0, V1, V2, V3, V4, V5), people(V6, V1, V7, V8, V4, V5).
+op336(V1) :- people(V0, V1, V2, V3, V4, V5), people(V6, V1, V7, V8, V4, V9).
+op336(V1) :- people(V0, V1, V2, V3, V4, V5), people(V6, V1, V7, V8, V4, V9).
+op336(V1) :- people(V0, V1, V2, V3, V4, V5), people(V6, V1, V7, V8, V9, V5).
+op336(V1) :- people(V0, V1, V2, V3, V4, V5), people(V6, V1, V7, V8, V9, V5).
+op336(V1) :- people(V0, V1, V2, V3, V4, V5), people(V6, V1, V7, V8, V9, V10).
+op336(V1) :- people(V0, V1, V2, V3, V4, V5), people(V6, V1, V7, V8, V9, V10).
+op336(V1) :- people(V0, V1, V2, V3, V4, V5), people(V6, V7, V2, V3, V4, V5).
+op336(V1) :- people(V0, V1, V2, V3, V4, V5), people(V6, V7, V2, V3, V4, V5).
+op336(V7) :- people(V0, V1, V2, V3, V4, V5), people(V6, V7, V2, V3, V4, V5).
+op336(V7) :- people(V0, V1, V2, V3, V4, V5), people(V6, V7, V2, V3, V4, V5).
+op336(V1) :- people(V0, V1, V2, V3, V4, V5), people(V6, V7, V2, V3, V4, V8).
+op336(V1) :- people(V0, V1, V2, V3, V4, V5), people(V6, V7, V2, V3, V4, V8).
+op336(V7) :- people(V0, V1, V2, V3, V4, V5), people(V6, V7, V2, V3, V4, V8).
+op336(V7) :- people(V0, V1, V2, V3, V4, V5), people(V6, V7, V2, V3, V4, V8).
+op336(V1) :- people(V0, V1, V2, V3, V4, V5), people(V6, V7, V2, V3, V8, V5).
+op336(V1) :- people(V0, V1, V2, V3, V4, V5), people(V6, V7, V2, V3, V8, V5).
+op336(V7) :- people(V0, V1, V2, V3, V4, V5), people(V6, V7, V2, V3, V8, V5).
+op336(V7) :- people(V0, V1, V2, V3, V4, V5), people(V6, V7, V2, V3, V8, V5).
+op336(V1) :- people(V0, V1, V2, V3, V4, V5), people(V6, V7, V2, V3, V8, V9).
+op336(V1) :- people(V0, V1, V2, V3, V4, V5), people(V6, V7, V2, V3, V8, V9).
+op336(V7) :- people(V0, V1, V2, V3, V4, V5), people(V6, V7, V2, V3, V8, V9).
+op336(V7) :- people(V0, V1, V2, V3, V4, V5), people(V6, V7, V2, V3, V8, V9).
+op336(V1) :- people(V0, V1, V2, V3, V4, V5), people(V6, V7, V2, V8, V4, V5).
+op336(V1) :- people(V0, V1, V2, V3, V4, V5), people(V6, V7, V2, V8, V4, V5).
+op336(V7) :- people(V0, V1, V2, V3, V4, V5), people(V6, V7, V2, V8, V4, V5).
+op336(V7) :- people(V0, V1, V2, V3, V4, V5), people(V6, V7, V2, V8, V4, V5).
+op336(V1) :- people(V0, V1, V2, V3, V4, V5), people(V6, V7, V2, V8, V4, V9).
+op336(V1) :- people(V0, V1, V2, V3, V4, V5), people(V6, V7, V2, V8, V4, V9).
+op336(V7) :- people(V0, V1, V2, V3, V4, V5), people(V6, V7, V2, V8, V4, V9).
+op336(V7) :- people(V0, V1, V2, V3, V4, V5), people(V6, V7, V2, V8, V4, V9).
+op336(V1) :- people(V0, V1, V2, V3, V4, V5), people(V6, V7, V2, V8, V9, V5).
+op336(V1) :- people(V0, V1, V2, V3, V4, V5), people(V6, V7, V2, V8, V9, V5).
+op336(V7) :- people(V0, V1, V2, V3, V4, V5), people(V6, V7, V2, V8, V9, V5).
+op336(V7) :- people(V0, V1, V2, V3, V4, V5), people(V6, V7, V2, V8, V9, V5).
+op336(V1) :- people(V0, V1, V2, V3, V4, V5), people(V6, V7, V2, V8, V9, V10).
+op336(V1) :- people(V0, V1, V2, V3, V4, V5), people(V6, V7, V2, V8, V9, V10).
+op336(V7) :- people(V0, V1, V2, V3, V4, V5), people(V6, V7, V2, V8, V9, V10).
+op336(V7) :- people(V0, V1, V2, V3, V4, V5), people(V6, V7, V2, V8, V9, V10).
+op336(V1) :- people(V0, V1, V2, V3, V4, V5), people(V6, V7, V8, V3, V4, V5).
+op336(V1) :- people(V0, V1, V2, V3, V4, V5), people(V6, V7, V8, V3, V4, V5).
+op336(V7) :- people(V0, V1, V2, V3, V4, V5), people(V6, V7, V8, V3, V4, V5).
+op336(V7) :- people(V0, V1, V2, V3, V4, V5), people(V6, V7, V8, V3, V4, V5).
+op336(V1) :- people(V0, V1, V2, V3, V4, V5), people(V6, V7, V8, V3, V4, V9).
+op336(V1) :- people(V0, V1, V2, V3, V4, V5), people(V6, V7, V8, V3, V4, V9).
+op336(V7) :- people(V0, V1, V2, V3, V4, V5), people(V6, V7, V8, V3, V4, V9).
+op336(V7) :- people(V0, V1, V2, V3, V4, V5), people(V6, V7, V8, V3, V4, V9).
+op336(V1) :- people(V0, V1, V2, V3, V4, V5), people(V6, V7, V8, V3, V9, V5).
+op336(V1) :- people(V0, V1, V2, V3, V4, V5), people(V6, V7, V8, V3, V9, V5).
+op336(V7) :- people(V0, V1, V2, V3, V4, V5), people(V6, V7, V8, V3, V9, V5).
+op336(V7) :- people(V0, V1, V2, V3, V4, V5), people(V6, V7, V8, V3, V9, V5).
+op336(V1) :- people(V0, V1, V2, V3, V4, V5), people(V6, V7, V8, V3, V9, V10).
+op336(V1) :- people(V0, V1, V2, V3, V4, V5), people(V6, V7, V8, V3, V9, V10).
+op336(V7) :- people(V0, V1, V2, V3, V4, V5), people(V6, V7, V8, V3, V9, V10).
+op336(V7) :- people(V0, V1, V2, V3, V4, V5), people(V6, V7, V8, V3, V9, V10).
+op336(V1) :- people(V0, V1, V2, V3, V4, V5), people(V6, V7, V8, V9, V4, V5).
+op336(V1) :- people(V0, V1, V2, V3, V4, V5), people(V6, V7, V8, V9, V4, V5).
+op336(V7) :- people(V0, V1, V2, V3, V4, V5), people(V6, V7, V8, V9, V4, V5).
+op336(V7) :- people(V0, V1, V2, V3, V4, V5), people(V6, V7, V8, V9, V4, V5).
+op336(V1) :- people(V0, V1, V2, V3, V4, V5), people(V6, V7, V8, V9, V4, V10).
+op336(V1) :- people(V0, V1, V2, V3, V4, V5), people(V6, V7, V8, V9, V4, V10).
+op336(V7) :- people(V0, V1, V2, V3, V4, V5), people(V6, V7, V8, V9, V4, V10).
+op336(V7) :- people(V0, V1, V2, V3, V4, V5), people(V6, V7, V8, V9, V4, V10).
+op336(V1) :- people(V0, V1, V2, V3, V4, V5), people(V6, V7, V8, V9, V10, V5).
+op336(V1) :- people(V0, V1, V2, V3, V4, V5), people(V6, V7, V8, V9, V10, V5).
+op336(V7) :- people(V0, V1, V2, V3, V4, V5), people(V6, V7, V8, V9, V10, V5).
+op336(V7) :- people(V0, V1, V2, V3, V4, V5), people(V6, V7, V8, V9, V10, V5).
+op336(V1) :- people(V0, V1, V2, V3, V4, V5), people(V6, V7, V8, V9, V10, V11).
+op336(V1) :- people(V0, V1, V2, V3, V4, V5), people(V6, V7, V8, V9, V10, V11).
+op336(V7) :- people(V0, V1, V2, V3, V4, V5), people(V6, V7, V8, V9, V10, V11).
+op336(V7) :- people(V0, V1, V2, V3, V4, V5), people(V6, V7, V8, V9, V10, V11).
+op336(V6) :- body_builder(V0, V1, V2, V3, V4), body_builder(V0, V1, V2, V3, V5), people(V1, V6, V7, V8, V9, V10).
+op336(V6) :- body_builder(V0, V1, V2, V3, V4), body_builder(V0, V1, V2, V3, V5), people(V1, V6, V7, V8, V9, V10).
+op336(V7) :- body_builder(V0, V1, V2, V3, V4), body_builder(V0, V1, V2, V3, V5), people(V6, V7, V8, V9, V10, V11).
+op336(V7) :- body_builder(V0, V1, V2, V3, V4), body_builder(V0, V1, V2, V3, V5), people(V6, V7, V8, V9, V10, V11).
+op336(V6) :- body_builder(V0, V1, V2, V3, V4), body_builder(V0, V1, V2, V5, V4), people(V1, V6, V7, V8, V9, V10).
+op336(V6) :- body_builder(V0, V1, V2, V3, V4), body_builder(V0, V1, V2, V5, V4), people(V1, V6, V7, V8, V9, V10).
+op336(V7) :- body_builder(V0, V1, V2, V3, V4), body_builder(V0, V1, V2, V5, V4), people(V6, V7, V8, V9, V10, V11).
+op336(V7) :- body_builder(V0, V1, V2, V3, V4), body_builder(V0, V1, V2, V5, V4), people(V6, V7, V8, V9, V10, V11).
+op336(V7) :- body_builder(V0, V1, V2, V3, V4), body_builder(V0, V1, V2, V5, V6), people(V1, V7, V8, V9, V10, V11).
+op336(V7) :- body_builder(V0, V1, V2, V3, V4), body_builder(V0, V1, V2, V5, V6), people(V1, V7, V8, V9, V10, V11).
+op336(V8) :- body_builder(V0, V1, V2, V3, V4), body_builder(V0, V1, V2, V5, V6), people(V7, V8, V9, V10, V11, V12).
+op336(V8) :- body_builder(V0, V1, V2, V3, V4), body_builder(V0, V1, V2, V5, V6), people(V7, V8, V9, V10, V11, V12).
+op336(V6) :- body_builder(V0, V1, V2, V3, V4), body_builder(V0, V1, V5, V3, V4), people(V1, V6, V7, V8, V9, V10).
+op336(V6) :- body_builder(V0, V1, V2, V3, V4), body_builder(V0, V1, V5, V3, V4), people(V1, V6, V7, V8, V9, V10).
+op336(V7) :- body_builder(V0, V1, V2, V3, V4), body_builder(V0, V1, V5, V3, V4), people(V6, V7, V8, V9, V10, V11).
+op336(V7) :- body_builder(V0, V1, V2, V3, V4), body_builder(V0, V1, V5, V3, V4), people(V6, V7, V8, V9, V10, V11).
+op336(V7) :- body_builder(V0, V1, V2, V3, V4), body_builder(V0, V1, V5, V3, V6), people(V1, V7, V8, V9, V10, V11).
+op336(V7) :- body_builder(V0, V1, V2, V3, V4), body_builder(V0, V1, V5, V3, V6), people(V1, V7, V8, V9, V10, V11).
+op336(V8) :- body_builder(V0, V1, V2, V3, V4), body_builder(V0, V1, V5, V3, V6), people(V7, V8, V9, V10, V11, V12).
+op336(V8) :- body_builder(V0, V1, V2, V3, V4), body_builder(V0, V1, V5, V3, V6), people(V7, V8, V9, V10, V11, V12).
+op336(V7) :- body_builder(V0, V1, V2, V3, V4), body_builder(V0, V1, V5, V6, V4), people(V1, V7, V8, V9, V10, V11).
+op336(V7) :- body_builder(V0, V1, V2, V3, V4), body_builder(V0, V1, V5, V6, V4), people(V1, V7, V8, V9, V10, V11).
+op336(V8) :- body_builder(V0, V1, V2, V3, V4), body_builder(V0, V1, V5, V6, V4), people(V7, V8, V9, V10, V11, V12).
+op336(V8) :- body_builder(V0, V1, V2, V3, V4), body_builder(V0, V1, V5, V6, V4), people(V7, V8, V9, V10, V11, V12).
+op336(V8) :- body_builder(V0, V1, V2, V3, V4), body_builder(V0, V1, V5, V6, V7), people(V1, V8, V9, V10, V11, V12).
+op336(V8) :- body_builder(V0, V1, V2, V3, V4), body_builder(V0, V1, V5, V6, V7), people(V1, V8, V9, V10, V11, V12).
+op336(V9) :- body_builder(V0, V1, V2, V3, V4), body_builder(V0, V1, V5, V6, V7), people(V8, V9, V10, V11, V12, V13).
+op336(V9) :- body_builder(V0, V1, V2, V3, V4), body_builder(V0, V1, V5, V6, V7), people(V8, V9, V10, V11, V12, V13).
+op336(V6) :- body_builder(V0, V1, V2, V3, V4), body_builder(V0, V5, V2, V3, V4), people(V1, V6, V7, V8, V9, V10).
+op336(V6) :- body_builder(V0, V1, V2, V3, V4), body_builder(V0, V5, V2, V3, V4), people(V1, V6, V7, V8, V9, V10).
+op336(V6) :- body_builder(V0, V1, V2, V3, V4), body_builder(V0, V5, V2, V3, V4), people(V5, V6, V7, V8, V9, V10).
+op336(V6) :- body_builder(V0, V1, V2, V3, V4), body_builder(V0, V5, V2, V3, V4), people(V5, V6, V7, V8, V9, V10).
+op336(V7) :- body_builder(V0, V1, V2, V3, V4), body_builder(V0, V5, V2, V3, V4), people(V6, V7, V8, V9, V10, V11).
+op336(V7) :- body_builder(V0, V1, V2, V3, V4), body_builder(V0, V5, V2, V3, V4), people(V6, V7, V8, V9, V10, V11).
+op336(V7) :- body_builder(V0, V1, V2, V3, V4), body_builder(V0, V5, V2, V3, V6), people(V1, V7, V8, V9, V10, V11).
+op336(V7) :- body_builder(V0, V1, V2, V3, V4), body_builder(V0, V5, V2, V3, V6), people(V1, V7, V8, V9, V10, V11).
+op336(V7) :- body_builder(V0, V1, V2, V3, V4), body_builder(V0, V5, V2, V3, V6), people(V5, V7, V8, V9, V10, V11).
+op336(V7) :- body_builder(V0, V1, V2, V3, V4), body_builder(V0, V5, V2, V3, V6), people(V5, V7, V8, V9, V10, V11).
+op336(V8) :- body_builder(V0, V1, V2, V3, V4), body_builder(V0, V5, V2, V3, V6), people(V7, V8, V9, V10, V11, V12).
+op336(V8) :- body_builder(V0, V1, V2, V3, V4), body_builder(V0, V5, V2, V3, V6), people(V7, V8, V9, V10, V11, V12).
+op336(V7) :- body_builder(V0, V1, V2, V3, V4), body_builder(V0, V5, V2, V6, V4), people(V1, V7, V8, V9, V10, V11).
+op336(V7) :- body_builder(V0, V1, V2, V3, V4), body_builder(V0, V5, V2, V6, V4), people(V1, V7, V8, V9, V10, V11).
+op336(V7) :- body_builder(V0, V1, V2, V3, V4), body_builder(V0, V5, V2, V6, V4), people(V5, V7, V8, V9, V10, V11).
+op336(V7) :- body_builder(V0, V1, V2, V3, V4), body_builder(V0, V5, V2, V6, V4), people(V5, V7, V8, V9, V10, V11).
+op336(V8) :- body_builder(V0, V1, V2, V3, V4), body_builder(V0, V5, V2, V6, V4), people(V7, V8, V9, V10, V11, V12).
+op336(V8) :- body_builder(V0, V1, V2, V3, V4), body_builder(V0, V5, V2, V6, V4), people(V7, V8, V9, V10, V11, V12).
+op336(V8) :- body_builder(V0, V1, V2, V3, V4), body_builder(V0, V5, V2, V6, V7), people(V1, V8, V9, V10, V11, V12).
+op336(V8) :- body_builder(V0, V1, V2, V3, V4), body_builder(V0, V5, V2, V6, V7), people(V1, V8, V9, V10, V11, V12).
+op336(V8) :- body_builder(V0, V1, V2, V3, V4), body_builder(V0, V5, V2, V6, V7), people(V5, V8, V9, V10, V11, V12).
+op336(V8) :- body_builder(V0, V1, V2, V3, V4), body_builder(V0, V5, V2, V6, V7), people(V5, V8, V9, V10, V11, V12).
+op336(V9) :- body_builder(V0, V1, V2, V3, V4), body_builder(V0, V5, V2, V6, V7), people(V8, V9, V10, V11, V12, V13).
+op336(V9) :- body_builder(V0, V1, V2, V3, V4), body_builder(V0, V5, V2, V6, V7), people(V8, V9, V10, V11, V12, V13).
+op336(V7) :- body_builder(V0, V1, V2, V3, V4), body_builder(V0, V5, V6, V3, V4), people(V1, V7, V8, V9, V10, V11).
+op336(V7) :- body_builder(V0, V1, V2, V3, V4), body_builder(V0, V5, V6, V3, V4), people(V1, V7, V8, V9, V10, V11).
+op336(V7) :- body_builder(V0, V1, V2, V3, V4), body_builder(V0, V5, V6, V3, V4), people(V5, V7, V8, V9, V10, V11).
+op336(V7) :- body_builder(V0, V1, V2, V3, V4), body_builder(V0, V5, V6, V3, V4), people(V5, V7, V8, V9, V10, V11).
+op336(V8) :- body_builder(V0, V1, V2, V3, V4), body_builder(V0, V5, V6, V3, V4), people(V7, V8, V9, V10, V11, V12).
+op336(V8) :- body_builder(V0, V1, V2, V3, V4), body_builder(V0, V5, V6, V3, V4), people(V7, V8, V9, V10, V11, V12).
+op336(V8) :- body_builder(V0, V1, V2, V3, V4), body_builder(V0, V5, V6, V3, V7), people(V1, V8, V9, V10, V11, V12).
+op336(V8) :- body_builder(V0, V1, V2, V3, V4), body_builder(V0, V5, V6, V3, V7), people(V1, V8, V9, V10, V11, V12).
+op336(V8) :- body_builder(V0, V1, V2, V3, V4), body_builder(V0, V5, V6, V3, V7), people(V5, V8, V9, V10, V11, V12).
+op336(V8) :- body_builder(V0, V1, V2, V3, V4), body_builder(V0, V5, V6, V3, V7), people(V5, V8, V9, V10, V11, V12).
+op336(V9) :- body_builder(V0, V1, V2, V3, V4), body_builder(V0, V5, V6, V3, V7), people(V8, V9, V10, V11, V12, V13).
+op336(V9) :- body_builder(V0, V1, V2, V3, V4), body_builder(V0, V5, V6, V3, V7), people(V8, V9, V10, V11, V12, V13).
+op336(V8) :- body_builder(V0, V1, V2, V3, V4), body_builder(V0, V5, V6, V7, V4), people(V1, V8, V9, V10, V11, V12).
+op336(V8) :- body_builder(V0, V1, V2, V3, V4), body_builder(V0, V5, V6, V7, V4), people(V1, V8, V9, V10, V11, V12).
+op336(V8) :- body_builder(V0, V1, V2, V3, V4), body_builder(V0, V5, V6, V7, V4), people(V5, V8, V9, V10, V11, V12).
+op336(V8) :- body_builder(V0, V1, V2, V3, V4), body_builder(V0, V5, V6, V7, V4), people(V5, V8, V9, V10, V11, V12).
+op336(V9) :- body_builder(V0, V1, V2, V3, V4), body_builder(V0, V5, V6, V7, V4), people(V8, V9, V10, V11, V12, V13).
+op336(V9) :- body_builder(V0, V1, V2, V3, V4), body_builder(V0, V5, V6, V7, V4), people(V8, V9, V10, V11, V12, V13).
+op336(V9) :- body_builder(V0, V1, V2, V3, V4), body_builder(V0, V5, V6, V7, V8), people(V1, V9, V10, V11, V12, V13).
+op336(V9) :- body_builder(V0, V1, V2, V3, V4), body_builder(V0, V5, V6, V7, V8), people(V1, V9, V10, V11, V12, V13).
+op336(V9) :- body_builder(V0, V1, V2, V3, V4), body_builder(V0, V5, V6, V7, V8), people(V5, V9, V10, V11, V12, V13).
+op336(V9) :- body_builder(V0, V1, V2, V3, V4), body_builder(V0, V5, V6, V7, V8), people(V5, V9, V10, V11, V12, V13).
+op336(V10) :- body_builder(V0, V1, V2, V3, V4), body_builder(V0, V5, V6, V7, V8), people(V9, V10, V11, V12, V13, V14).
+op336(V10) :- body_builder(V0, V1, V2, V3, V4), body_builder(V0, V5, V6, V7, V8), people(V9, V10, V11, V12, V13, V14).
+op336(V6) :- body_builder(V0, V1, V2, V3, V4), body_builder(V5, V1, V2, V3, V4), people(V1, V6, V7, V8, V9, V10).
+op336(V6) :- body_builder(V0, V1, V2, V3, V4), body_builder(V5, V1, V2, V3, V4), people(V1, V6, V7, V8, V9, V10).
+op336(V7) :- body_builder(V0, V1, V2, V3, V4), body_builder(V5, V1, V2, V3, V4), people(V6, V7, V8, V9, V10, V11).
+op336(V7) :- body_builder(V0, V1, V2, V3, V4), body_builder(V5, V1, V2, V3, V4), people(V6, V7, V8, V9, V10, V11).
+op336(V7) :- body_builder(V0, V1, V2, V3, V4), body_builder(V5, V1, V2, V3, V6), people(V1, V7, V8, V9, V10, V11).
+op336(V7) :- body_builder(V0, V1, V2, V3, V4), body_builder(V5, V1, V2, V3, V6), people(V1, V7, V8, V9, V10, V11).
+op336(V8) :- body_builder(V0, V1, V2, V3, V4), body_builder(V5, V1, V2, V3, V6), people(V7, V8, V9, V10, V11, V12).
+op336(V8) :- body_builder(V0, V1, V2, V3, V4), body_builder(V5, V1, V2, V3, V6), people(V7, V8, V9, V10, V11, V12).
+op336(V7) :- body_builder(V0, V1, V2, V3, V4), body_builder(V5, V1, V2, V6, V4), people(V1, V7, V8, V9, V10, V11).
+op336(V7) :- body_builder(V0, V1, V2, V3, V4), body_builder(V5, V1, V2, V6, V4), people(V1, V7, V8, V9, V10, V11).
+op336(V8) :- body_builder(V0, V1, V2, V3, V4), body_builder(V5, V1, V2, V6, V4), people(V7, V8, V9, V10, V11, V12).
+op336(V8) :- body_builder(V0, V1, V2, V3, V4), body_builder(V5, V1, V2, V6, V4), people(V7, V8, V9, V10, V11, V12).
+op336(V8) :- body_builder(V0, V1, V2, V3, V4), body_builder(V5, V1, V2, V6, V7), people(V1, V8, V9, V10, V11, V12).
+op336(V8) :- body_builder(V0, V1, V2, V3, V4), body_builder(V5, V1, V2, V6, V7), people(V1, V8, V9, V10, V11, V12).
+op336(V9) :- body_builder(V0, V1, V2, V3, V4), body_builder(V5, V1, V2, V6, V7), people(V8, V9, V10, V11, V12, V13).
+op336(V9) :- body_builder(V0, V1, V2, V3, V4), body_builder(V5, V1, V2, V6, V7), people(V8, V9, V10, V11, V12, V13).
+op336(V7) :- body_builder(V0, V1, V2, V3, V4), body_builder(V5, V1, V6, V3, V4), people(V1, V7, V8, V9, V10, V11).
+op336(V7) :- body_builder(V0, V1, V2, V3, V4), body_builder(V5, V1, V6, V3, V4), people(V1, V7, V8, V9, V10, V11).
+op336(V8) :- body_builder(V0, V1, V2, V3, V4), body_builder(V5, V1, V6, V3, V4), people(V7, V8, V9, V10, V11, V12).
+op336(V8) :- body_builder(V0, V1, V2, V3, V4), body_builder(V5, V1, V6, V3, V4), people(V7, V8, V9, V10, V11, V12).
+op336(V8) :- body_builder(V0, V1, V2, V3, V4), body_builder(V5, V1, V6, V3, V7), people(V1, V8, V9, V10, V11, V12).
+op336(V8) :- body_builder(V0, V1, V2, V3, V4), body_builder(V5, V1, V6, V3, V7), people(V1, V8, V9, V10, V11, V12).
+op336(V9) :- body_builder(V0, V1, V2, V3, V4), body_builder(V5, V1, V6, V3, V7), people(V8, V9, V10, V11, V12, V13).
+op336(V9) :- body_builder(V0, V1, V2, V3, V4), body_builder(V5, V1, V6, V3, V7), people(V8, V9, V10, V11, V12, V13).
+op336(V8) :- body_builder(V0, V1, V2, V3, V4), body_builder(V5, V1, V6, V7, V4), people(V1, V8, V9, V10, V11, V12).
+op336(V8) :- body_builder(V0, V1, V2, V3, V4), body_builder(V5, V1, V6, V7, V4), people(V1, V8, V9, V10, V11, V12).
+op336(V9) :- body_builder(V0, V1, V2, V3, V4), body_builder(V5, V1, V6, V7, V4), people(V8, V9, V10, V11, V12, V13).
+op336(V9) :- body_builder(V0, V1, V2, V3, V4), body_builder(V5, V1, V6, V7, V4), people(V8, V9, V10, V11, V12, V13).
+op336(V9) :- body_builder(V0, V1, V2, V3, V4), body_builder(V5, V1, V6, V7, V8), people(V1, V9, V10, V11, V12, V13).
+op336(V9) :- body_builder(V0, V1, V2, V3, V4), body_builder(V5, V1, V6, V7, V8), people(V1, V9, V10, V11, V12, V13).
+op336(V10) :- body_builder(V0, V1, V2, V3, V4), body_builder(V5, V1, V6, V7, V8), people(V9, V10, V11, V12, V13, V14).
+op336(V10) :- body_builder(V0, V1, V2, V3, V4), body_builder(V5, V1, V6, V7, V8), people(V9, V10, V11, V12, V13, V14).
+op336(V7) :- body_builder(V0, V1, V2, V3, V4), body_builder(V5, V6, V2, V3, V4), people(V1, V7, V8, V9, V10, V11).
+op336(V7) :- body_builder(V0, V1, V2, V3, V4), body_builder(V5, V6, V2, V3, V4), people(V1, V7, V8, V9, V10, V11).
+op336(V7) :- body_builder(V0, V1, V2, V3, V4), body_builder(V5, V6, V2, V3, V4), people(V6, V7, V8, V9, V10, V11).
+op336(V7) :- body_builder(V0, V1, V2, V3, V4), body_builder(V5, V6, V2, V3, V4), people(V6, V7, V8, V9, V10, V11).
+op336(V8) :- body_builder(V0, V1, V2, V3, V4), body_builder(V5, V6, V2, V3, V4), people(V7, V8, V9, V10, V11, V12).
+op336(V8) :- body_builder(V0, V1, V2, V3, V4), body_builder(V5, V6, V2, V3, V4), people(V7, V8, V9, V10, V11, V12).
+op336(V8) :- body_builder(V0, V1, V2, V3, V4), body_builder(V5, V6, V2, V3, V7), people(V1, V8, V9, V10, V11, V12).
+op336(V8) :- body_builder(V0, V1, V2, V3, V4), body_builder(V5, V6, V2, V3, V7), people(V1, V8, V9, V10, V11, V12).
+op336(V8) :- body_builder(V0, V1, V2, V3, V4), body_builder(V5, V6, V2, V3, V7), people(V6, V8, V9, V10, V11, V12).
+op336(V8) :- body_builder(V0, V1, V2, V3, V4), body_builder(V5, V6, V2, V3, V7), people(V6, V8, V9, V10, V11, V12).
+op336(V9) :- body_builder(V0, V1, V2, V3, V4), body_builder(V5, V6, V2, V3, V7), people(V8, V9, V10, V11, V12, V13).
+op336(V9) :- body_builder(V0, V1, V2, V3, V4), body_builder(V5, V6, V2, V3, V7), people(V8, V9, V10, V11, V12, V13).
+op336(V8) :- body_builder(V0, V1, V2, V3, V4), body_builder(V5, V6, V2, V7, V4), people(V1, V8, V9, V10, V11, V12).
+op336(V8) :- body_builder(V0, V1, V2, V3, V4), body_builder(V5, V6, V2, V7, V4), people(V1, V8, V9, V10, V11, V12).
+op336(V8) :- body_builder(V0, V1, V2, V3, V4), body_builder(V5, V6, V2, V7, V4), people(V6, V8, V9, V10, V11, V12).
+op336(V8) :- body_builder(V0, V1, V2, V3, V4), body_builder(V5, V6, V2, V7, V4), people(V6, V8, V9, V10, V11, V12).
+op336(V9) :- body_builder(V0, V1, V2, V3, V4), body_builder(V5, V6, V2, V7, V4), people(V8, V9, V10, V11, V12, V13).
+op336(V9) :- body_builder(V0, V1, V2, V3, V4), body_builder(V5, V6, V2, V7, V4), people(V8, V9, V10, V11, V12, V13).
+op336(V9) :- body_builder(V0, V1, V2, V3, V4), body_builder(V5, V6, V2, V7, V8), people(V1, V9, V10, V11, V12, V13).
+op336(V9) :- body_builder(V0, V1, V2, V3, V4), body_builder(V5, V6, V2, V7, V8), people(V1, V9, V10, V11, V12, V13).
+op336(V9) :- body_builder(V0, V1, V2, V3, V4), body_builder(V5, V6, V2, V7, V8), people(V6, V9, V10, V11, V12, V13).
+op336(V9) :- body_builder(V0, V1, V2, V3, V4), body_builder(V5, V6, V2, V7, V8), people(V6, V9, V10, V11, V12, V13).
+op336(V10) :- body_builder(V0, V1, V2, V3, V4), body_builder(V5, V6, V2, V7, V8), people(V9, V10, V11, V12, V13, V14).
+op336(V10) :- body_builder(V0, V1, V2, V3, V4), body_builder(V5, V6, V2, V7, V8), people(V9, V10, V11, V12, V13, V14).
+op336(V8) :- body_builder(V0, V1, V2, V3, V4), body_builder(V5, V6, V7, V3, V4), people(V1, V8, V9, V10, V11, V12).
+op336(V8) :- body_builder(V0, V1, V2, V3, V4), body_builder(V5, V6, V7, V3, V4), people(V1, V8, V9, V10, V11, V12).
+op336(V8) :- body_builder(V0, V1, V2, V3, V4), body_builder(V5, V6, V7, V3, V4), people(V6, V8, V9, V10, V11, V12).
+op336(V8) :- body_builder(V0, V1, V2, V3, V4), body_builder(V5, V6, V7, V3, V4), people(V6, V8, V9, V10, V11, V12).
+op336(V9) :- body_builder(V0, V1, V2, V3, V4), body_builder(V5, V6, V7, V3, V4), people(V8, V9, V10, V11, V12, V13).
+op336(V9) :- body_builder(V0, V1, V2, V3, V4), body_builder(V5, V6, V7, V3, V4), people(V8, V9, V10, V11, V12, V13).
+op336(V9) :- body_builder(V0, V1, V2, V3, V4), body_builder(V5, V6, V7, V3, V8), people(V1, V9, V10, V11, V12, V13).
+op336(V9) :- body_builder(V0, V1, V2, V3, V4), body_builder(V5, V6, V7, V3, V8), people(V1, V9, V10, V11, V12, V13).
+op336(V9) :- body_builder(V0, V1, V2, V3, V4), body_builder(V5, V6, V7, V3, V8), people(V6, V9, V10, V11, V12, V13).
+op336(V9) :- body_builder(V0, V1, V2, V3, V4), body_builder(V5, V6, V7, V3, V8), people(V6, V9, V10, V11, V12, V13).
+op336(V10) :- body_builder(V0, V1, V2, V3, V4), body_builder(V5, V6, V7, V3, V8), people(V9, V10, V11, V12, V13, V14).
+op336(V10) :- body_builder(V0, V1, V2, V3, V4), body_builder(V5, V6, V7, V3, V8), people(V9, V10, V11, V12, V13, V14).
+op336(V9) :- body_builder(V0, V1, V2, V3, V4), body_builder(V5, V6, V7, V8, V4), people(V1, V9, V10, V11, V12, V13).
+op336(V9) :- body_builder(V0, V1, V2, V3, V4), body_builder(V5, V6, V7, V8, V4), people(V1, V9, V10, V11, V12, V13).
+op336(V9) :- body_builder(V0, V1, V2, V3, V4), body_builder(V5, V6, V7, V8, V4), people(V6, V9, V10, V11, V12, V13).
+op336(V9) :- body_builder(V0, V1, V2, V3, V4), body_builder(V5, V6, V7, V8, V4), people(V6, V9, V10, V11, V12, V13).
+op336(V10) :- body_builder(V0, V1, V2, V3, V4), body_builder(V5, V6, V7, V8, V4), people(V9, V10, V11, V12, V13, V14).
+op336(V10) :- body_builder(V0, V1, V2, V3, V4), body_builder(V5, V6, V7, V8, V4), people(V9, V10, V11, V12, V13, V14).
+op336(V10) :- body_builder(V0, V1, V2, V3, V4), body_builder(V5, V6, V7, V8, V9), people(V1, V10, V11, V12, V13, V14).
+op336(V10) :- body_builder(V0, V1, V2, V3, V4), body_builder(V5, V6, V7, V8, V9), people(V1, V10, V11, V12, V13, V14).
+op336(V10) :- body_builder(V0, V1, V2, V3, V4), body_builder(V5, V6, V7, V8, V9), people(V6, V10, V11, V12, V13, V14).
+op336(V10) :- body_builder(V0, V1, V2, V3, V4), body_builder(V5, V6, V7, V8, V9), people(V6, V10, V11, V12, V13, V14).
+op336(V11) :- body_builder(V0, V1, V2, V3, V4), body_builder(V5, V6, V7, V8, V9), people(V10, V11, V12, V13, V14, V15).
+op336(V11) :- body_builder(V0, V1, V2, V3, V4), body_builder(V5, V6, V7, V8, V9), people(V10, V11, V12, V13, V14, V15).
+op336(V6) :- body_builder(V0, V1, V2, V3, V4), people(V5, V6, V7, V8, V9, V10), people(V5, V6, V7, V8, V9, V11).
+op336(V6) :- body_builder(V0, V1, V2, V3, V4), people(V5, V6, V7, V8, V9, V10), people(V5, V6, V7, V8, V9, V11).

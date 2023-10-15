@@ -1,0 +1,15 @@
+.type name
+.type age
+.type height
+
+.decl first(v0: name, v1: age)
+.input first
+
+.decl second(v0: name, v1: height)
+.input second
+
+// SELECT name ,  distance FROM Aircraft WHERE aid  =  12
+.cat name
+
+.decl op0(v0: age, v1: height)
+.output op0

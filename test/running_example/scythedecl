@@ -1,0 +1,41 @@
+# input
+
+deptCode, school
+Chem., Arts and Science
+Comp., Engineering
+Math., Arts and Science
+Mech., Engineering
+
+# input
+
+instructorID, deptCode, courseID
+Frank, Comp., 201
+George, Chem., 310
+Hannah, Mech., 550
+Ira, Comp., 300
+
+# input
+
+studentID, deptCode, courseID
+Alice, Comp., 201
+Alice, Chem., 310
+Alice, Mech., 550
+Bob, Mech., 320
+Bob, Mech., 550
+Charlie, Chem., 310
+David, Comp., 500
+David, Mech., 502
+Erin, Chem., 310
+
+# output
+
+studentID
+Alice
+Bob
+
+# constraint
+
+{
+	"constants": ["500", "Engineering"],
+	"aggregation_functions": []
+}

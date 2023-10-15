@@ -1,0 +1,5 @@
+// SELECT T2.Name FROM body_builder AS T1 JOIN people AS T2 ON T1.People_ID  =  T2.People_ID
+
+
+.decl op639(v0: Name)
+.output op639

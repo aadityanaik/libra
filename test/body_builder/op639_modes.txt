@@ -1,0 +1,4 @@
+#modeb(2, body_builder(var(body_builder_id), var(people_id), var(snatch), var(clean_jerk), var(total)), (positive)).
+#modeb(2, people(var(people_id), var(name), var(height), var(weight), var(birth_date), var(birth_place)), (positive)).
+#maxv(35).
+#modeh(op639(var(name))).

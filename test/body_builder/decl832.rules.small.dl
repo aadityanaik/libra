@@ -1,0 +1,5 @@
+// SELECT * FROM body_builder
+
+
+.decl op832(v0: Body_Builder_ID, v1: People_ID, v2: Snatch, v3: Clean_Jerk, v4: Total)
+.output op832

@@ -1,0 +1,21 @@
+.type studentID
+.type deptCode
+.type courseID
+.type instructorID
+.type school
+
+.decl registration(v0: studentID, v1: deptCode, v2: courseID)
+.input registration
+
+.decl instructor(v0: instructorID, v1: deptCode, v2: courseID)
+.input instructor
+
+.decl department(v0: deptCode, v1: school)
+.input department
+
+.ord courseID
+.cat school
+
+
+.decl op0(v0: studentID)
+.output op0
